@@ -26,7 +26,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: white;
+        background-color: rgba(211,211,211,0.41);
     }
 
     #loader {

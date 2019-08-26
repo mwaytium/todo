@@ -1,6 +1,6 @@
 <template>
     <li>
-        <div class="card">
+        <div class="card" title="double-click for edit">
             <div @dblclick="edit(description)" class="text">{{ description }}</div>
             <input  ref="input" @blur="saveCard(description)" @keyup.esc="discard()"  v-if="show" type="text" v-model="currentText">
             <div class="delete">
